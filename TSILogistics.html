@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<title>TSI Logistics - A division of Truckalocity</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+    integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/f4a472a923.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="TSILogisticsStyle.css">
+
+<body class="background">
+
+    <!-- Icon Bar (Sidebar - hidden on small screens) -->
+    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+        <!-- Avatar image in top left corner -->
+        <img src="Media/TSILogistics.jpg" style="width:100%; padding-top: 10%;">
+        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-blue">
+            <i class="fa fa-home w3-xxlarge"></i>
+            <p><b>HOME</b></p>
+        </a>
+        <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-blue">
+            <i class="fa fa-user w3-xxlarge"></i>
+            <p><b>TRUCKERS</b></p>
+        </a>
+        <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-blue">
+            <i class="fa fa-truck-moving w3-xxlarge"></i>
+            <p><b>CARRIERS</b></p>
+        </a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-blue">
+            <i class="fa fa-shipping-fast w3-xxlarge"></i>
+            <p><b>SHIPPERS</b></p>
+        </a>
+    </nav>
+
+    <!-- Navbar on small screens (Hidden on medium and large screens) -->
+    <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+        <div class="w3-bar  w3-hover-opacity-off w3-center w3-small">
+            <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+            <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">TRUCKERS</a>
+            <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">CARRIERS</a>
+            <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">SHIPPERS</a>
+        </div>
+    </div>
+
+    <!-- Page Content -->
+    <div class="w3-padding-large" id="main">
+        <!-- Header/Home -->
+        <header class="w3-container w3-padding-32 w3-center" id="home">
+            <h6 class="w3-jumbo"><span class="w3-hide-small">Welcome to</span> TSI Logistics</h6>
+            <p style="background-color:black;">We want to work for you, we are a division of - <img
+                    src="Media/TruckalocityLogo.png" alt="Truckalocity Logo" />
+                Enroll with TSI and earn more.
+                <img src="Media/SkynTruck.jpg" alt="blue n white, sky n truck" class="w3-image" width="100%"></p>
+        </header>
+
+        <!-- Contact Section -->
+        <div class="w3-padding-64 w3-content w3-text-black" id="contact">
+            <h2 class="w3-text-grey">Contact Us</h2>
+            <hr style="width:200px" class="w3-opacity">
+
+            <div class="w3-section">
+                <p><i class="fa fa-map-marker fa-fw  w3-xxlarge w3-margin-right"></i> PO BOX 64951 baton
+                    Rouge, La 70896</p>
+                <p><i class="fa fa-phone fa-fw  w3-xxlarge w3-margin-right"></i> Phone: (225) 250-5893</p>
+                <p><i class="fa fa-phone fa-fw  w3-xxlarge w3-margin-right"></i> Toll Free: (800) 499-5912
+                </p>
+                <p><i class="fas fa-fax fa-fw w3-xxlarge w3-margin-right"></i> Fax: (225) 250-5733</p>
+                <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email:
+                    bob@tsilogistics.net
+                </p>
+            </div><br>
+            <p>Lets get in touch. Send us a message:</p>
+
+            <form action="/action_page.php" target="_blank">
+                <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+                <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+                <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+                <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+                <p>
+                    <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+                        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                    </button>
+                </p>
+            </form>
+            <!-- End Contact Section -->
+        </div>
+
+        <!-- Footer -->
+        <section class="footer2 cid-rpSfRe8AXs" id="footer003-30" data-rv-view="473">
+            <div class="container w3-black">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-4 col-md-12 align-left">
+                        <img src="Media/TSILogistics.jpg" alt="TSILogistics" media-simple="true" class="logo">
+                    </div>
+                    <div class="col-12 col-lg-2 col-md-6 align-left">
+                        <h5 class="mbr-fonts-style items mbr-semibold pb-2 display-4"><b>Home</b></h5>
+                        <h5 class="mbr-fonts-style items mbr-semibold pb-2 display-4"><b>Truckers</b></h5>
+                        <h5 class="mbr-fonts-style items mbr-semibold pb-2 display-4"><b>Carriers</b></h5>
+                        <h5 class="mbr-fonts-style items mbr-semibold pb-2 display-4"><b>Shippers</b></h5>
+                    </div>
+                    <!-- <div class="col-12 col-lg-2 col-md-6 align-left">
+                        <h5 class="mbr-fonts-style items mbr-semibold pb-2 display-4">About Us</h5>
+                        <h5 class="mbr-fonts-style items mbr-semibold pb-2 display-4">Contact US</h5>
+                        <h5 class="mbr-fonts-style items mbr-semibold pb-2 display-4">Truckalocity</h5>
+                    </div> -->
+                    <div class="col-12 col-lg-4 col-md-12">
+                        <div class="w3-content w3-text-grey w3-xlarge">
+                            <i class="fab fa-facebook w3-hover-opacity"></i>
+                            <i class="fab fa-instagram w3-hover-opacity"></i>
+                            <i class="fab fa-twitter-square w3-hover-opacity"></i>
+                            <i class="fab fa-linkedin w3-hover-opacity"></i>
+                            <p class="w3-medium">© Copyright 2019 TSI Logistics – A division of Truckalocity – All
+                                Rights Reserved</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END PAGE CONTENT -->
+    </div>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

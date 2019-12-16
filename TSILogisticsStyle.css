@@ -1,0 +1,74 @@
+
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Montserrat", sans-serif
+    }
+
+    section {
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    section,
+    .container,
+    .container-fluid {
+        position: relative;
+        word-wrap: break-word;
+        padding: 1%;
+    }
+
+    .background {
+        color: rgb(240, 200, 99);
+    }
+
+    .w3-row-padding img {
+        margin-bottom: 12px
+    }
+
+    /* Set the width of the sidebar to 120px */
+    .w3-sidebar {
+        width: 120px;
+        background: rgb(13, 169, 247);
+    }
+    
+    .w3-bar{
+        background: rgb(13, 169, 247);
+    }
+
+    .logo{
+        display: block;
+    margin: 0 auto;
+    padding: 2%;
+    background-repeat: no-repeat;
+    width: 50%;
+    border: 2px solid #e0e0eb;
+    }
+    .cid-rpSfRe8AXs {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        background-color: #ffffff;
+    }
+
+    .cid-rpSfRqtWyh {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: #333333;
+    }
+
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+    #main {
+        margin-left: 120px
+    }
+
+    /* Remove margins from "page content" on small screens */
+    @media only screen and (max-width: 600px) {
+        #main {
+            margin-left: 0
+        }
+    }
