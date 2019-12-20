@@ -1,16 +1,18 @@
+// AIzaSyD0by67OIut1O6D-Cqpq47QDDUG6eV-X6M
 
 
-$(document).ready(function () {
-    $('.googleMapPopUp').each(function () {
-        var w = $(window).innerWidth();
-        var h = $(window).innerHeight();
-        var thisPopup = $(this);
-        thisPopup.colorbox({
-            iframe: true,
-            innerWidth: w - 100,
-            innerHeight: h - 100,
-            opacity: 0.7,
-            href: thisPopup.attr('href') + '&ie=UTF8&t=h&output=embed'
-        });
+$(".googleMapPopUp").on('click', function () {
+
+    $.fancybox.open({
+        src: 'TISMap.html',
+        type: 'iframe',
+        opts: {
+            afterShow: function (instance, current) {
+                console.info('done!');
+            }
+        }
     });
+
 });
+
+

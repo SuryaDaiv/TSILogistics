@@ -11,11 +11,11 @@
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" href="http://www.jacklmoore.com/colorbox/example1/colorbox.css">
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
     integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
+<link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
 <link rel="stylesheet" href="TSILogisticsStyle.css">
 <!-- JavaScript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -24,10 +24,8 @@
     integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
     crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/f4a472a923.js" crossorigin="anonymous"></script>
-<script src="http://www.jacklmoore.com/colorbox/jquery.colorbox.js"></script>
 
 
-<script src="TSILogisticsScript.js"></script>
 
 <body class="background">
 
@@ -79,30 +77,39 @@
 
         <!--  Section -->
         <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="Truckers">
-            <h2 class="w3-text-grey">For Truckers</h2>
+            <h2 class="w3-text-grey">FOR TRUCKERS</h2>
             <hr style="width:200px" class="w3-opacity">
             <div class="Shippers">
-                <img src="Media/aerial-photography-of-trucks-parked-2800121.jpg" alt="for truckers"
+                <img src="Media/aerial-photography-of-trucks-parked-2800121.jpg" alt="FOR TRUCKERS"
                     style="width:100%;" />
                 <button type="button" class="btn btn-class centered">Truckers Click Here</button>
             </div>
             <!-- End  Section -->
         </div>
-
+        <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="Carriers">
+            <h2 class="w3-text-grey">FOR CARRIERS</h2>
+            <hr style="width:200px" class="w3-opacity">
+            <div class="Shippers">
+                <img src="Media/white-volvo-semi-truck-on-side-of-road-2199293.jpg" alt="FOR CARRIERS"
+                    style="width:100%;" />
+                <button type="button" class="btn btn-class centered">Carriers Click Here</button>
+            </div>
+            <!-- End  Section -->
+        </div>
         <!--  Section -->
         <div class="w3-padding-64 w3-content" id="Shippers">
-            <h2 class="w3-text-grey">For Shippers</h2>
+            <h2 class="w3-text-grey">FOR SHIPPERS</h2>
             <hr style="width:200px" class="w3-opacity">
 
             <!-- Grid for shippers -->
             <div class="w3-row-padding" style="margin:0 -16px">
                 <div class="Shippers">
-                    <img src="./Media/birds-eye-view-photo-of-freight-containers-2226458.jpg" alt="Snow"
+                    <img src="./Media/birds-eye-view-photo-of-freight-containers-2226458.jpg" alt="FOR SHIPPERS"
                         style="width:100%;">
-                    <a class="googleMapPopUp" rel="nofollow"
-                        href="https://maps.google.com.au/maps?q=united+states+of+america" target="_blank"> <button
-                            type="button" class="btn btn-class centered">Shippers Click
-                            Here</button></a>
+
+                    <a class="googleMapPopUp btn btn-class centered" href="javascript:;"
+                        class="btn btn-primary">Shippers Click
+                        Here</a>
                 </div>
                 <!-- End grid -->
             </div>
@@ -126,10 +133,15 @@
                         <img src="Media/TSILogistics.jpg" alt="TISLogistics" media-simple="true" class="logo">
                     </div>
                     <div class="col-12 col-lg-2 col-md-6 align-left">
-                        <h5 class="mbr-fonts-style items mbr-semibold pb-2 display-4"><b>Home</b></h5>
-                        <h5 class="mbr-fonts-style items mbr-semibold pb-2 display-4"><b>Truckers</b></h5>
-                        <h5 class="mbr-fonts-style items mbr-semibold pb-2 display-4"><b>Carriers</b></h5>
-                        <h5 class="mbr-fonts-style items mbr-semibold pb-2 display-4"><b>Shippers</b></h5>
+                        <h5 class="mbr-fonts-style items mbr-semibold pb-2 display-4"><b><a href="#">HOME</a></b></h5>
+                        <h5 class="mbr-fonts-style items mbr-semibold pb-2 display-4"><b><a
+                                    href="#Truckers">TRUCKERS</a></b></h5>
+                        <h5 class="mbr-fonts-style items mbr-semibold pb-2 display-4"><b><a
+                                    href="#Carriers">CARRIERS</a></b></h5>
+                        <h5 class="mbr-fonts-style items mbr-semibold pb-2 display-4"><b><a
+                                    href="#Shippers">SHIPPERS</a></b></h5>
+                        <h5 class="mbr-fonts-style items mbr-semibold pb-2 display-4"><b><a
+                                    href="#contact">CONTACT</a></a></b></h5>
                     </div>
                     <div class="col-12 col-lg-4 col-md-12 align-left">
                         <p style="display:block"><i class="fa fa-map-marker fa-fw  w3-medium w3-margin-right"></i> PO
@@ -162,6 +174,9 @@
     </section>
     <!-- END PAGE CONTENT -->
     </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="TSILogisticsScript.js"></script>
 </body>
 
 </html>
